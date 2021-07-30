@@ -110,15 +110,7 @@ function createParametersLiteral(operation, args) {
 
   let hasBodyArgument = !!operation.bodyModel;
   if (hasBodyArgument) {
-      // grab param name from parameter list
-      let bodyModelParams = operation.parameters.filter(x => x.in == 'body');
-      if(bodyModelParams != null){
-        let bodyModelParam = bodyModelParams[0];
-        bodyModelParamName = bodyModelParam.name;
-      }
-
-    let parameterName = bodyModelParamName;
-    parameters.push(parameterName);
+    parameters.push('body');
   }
 
   for (let param of operation.allParams) {
