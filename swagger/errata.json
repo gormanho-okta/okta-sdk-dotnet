@@ -1,0 +1,10 @@
+[
+  {
+    "type": "rename",
+    "parameters": [
+      { "from": "CAPTCHAInstance", "to": "CaptchaInstance" },
+      { "from": "CAPTCHAInstanceLink", "to": "CaptchaInstanceLink" },
+      { "from": "CAPTCHAType", "to": "CaptchaType" }
+    ]
+  }
+]

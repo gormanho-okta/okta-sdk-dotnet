@@ -29,6 +29,7 @@
                             <configFile>${project.basedir}/config.json</configFile>
                             <templateDirectory>${project.basedir}/templates</templateDirectory>
                             <output>${project.build.directory}</output>
+                            <errataFile>${project.basedir}/errata.json</errataFile>
                         </configuration>
                     </execution>
                 </executions>
