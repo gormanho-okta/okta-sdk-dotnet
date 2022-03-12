@@ -6,5 +6,18 @@
       { "from": "CAPTCHAInstanceLink", "to": "CaptchaInstanceLink" },
       { "from": "CAPTCHAType", "to": "CaptchaType" }
     ]
+  },
+  {
+    "type": "hideBaseMember",
+    "parameters": [
+      {
+        "model": "AutoLoginApplication",
+        "properties": ["Credentials", "Settings"]
+      },
+      {
+        "model": "BasicAuthApplication",
+        "properties": ["Credentials"]
+      }
+    ]
   }
 ]

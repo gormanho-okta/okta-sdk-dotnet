@@ -27,7 +27,7 @@ namespace Okta.Sdk {
     /// {{^description}}Gets or Sets {{{name}}}{{/description}}{{#description}}{{{description}}}{{/description}}
     /// </summary>{{#description}}
     /// <value>{{{description}}}</value>{{/description}}
-    public {{{datatype}}} {{name}} 
+    public {{#vendorExtensions.x-okta-hide-base-member}}new {{/vendorExtensions.x-okta-hide-base-member}}{{{datatype}}} {{name}}
     {
       {{#vendorExtensions.getterLiteral}}
        get => {{{vendorExtensions.getterLiteral}}};
