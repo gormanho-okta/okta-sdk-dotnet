@@ -25,7 +25,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <language>com.okta.sdk.generators.CSharpCodegen</language>
+                            <language>csharp</language>
                             <configFile>${project.basedir}/config.json</configFile>
                             <templateDirectory>${project.basedir}/templates</templateDirectory>
                             <output>${project.build.directory}</output>
