@@ -1,6 +1,6 @@
 [
   {
-    "type": "rename",
+    "type": "renameModel",
     "parameters": [
       { "from": "CAPTCHAInstance", "to": "CaptchaInstance" },
       { "from": "CAPTCHAInstanceLink", "to": "CaptchaInstanceLink" },
