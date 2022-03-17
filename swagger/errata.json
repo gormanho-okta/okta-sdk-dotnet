@@ -8,6 +8,12 @@
     ]
   },
   {
+    "type": "renameApi",
+    "parameters": [
+      { "from": "CAPTCHAApi", "to": "CaptchaApi" }
+    ]
+  },
+  {
     "type": "hideBaseMember",
     "parameters": [
       {
